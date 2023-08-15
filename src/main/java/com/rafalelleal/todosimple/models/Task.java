@@ -54,6 +54,24 @@ public class Task {
         return this;
     }
 
+
+    public User getUser() {
+        return this.user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public String getDescription() {
+        return this.description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+
     @Override
     public boolean equals(Object obj){
         if(obj == null){
